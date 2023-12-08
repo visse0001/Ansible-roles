@@ -1,0 +1,6 @@
+- name: Install pakcages role
+  become: true
+  hosts: all
+  connection: local
+  roles:
+  - packages
